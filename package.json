@@ -1,0 +1,19 @@
+{
+  "name": "clay-gtm-workflow",
+  "version": "1.0.0",
+  "description": "A tiny, dependency-free sync endpoint for a Clay GTM enrichment workflow. Web-standard handler, pluggable store, tested.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["clay", "gtm-engineering", "webhook", "enrichment", "ai"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
